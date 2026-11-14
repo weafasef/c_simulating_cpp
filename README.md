@@ -17,15 +17,6 @@
 | `main.c` | 使用示例 |
 | `shape_demo.c` | 结构体 + 函数指针版本，用于对照 |
 
-## 编译运行
-
-```sh
-clang -std=c17 -Wall -Wextra pylite.c main.c -o build/main
-./build/main
-```
-
-VS Code 里按 `Cmd+Shift+B` 编译，`Tasks: Run Task` → `run` 运行。
-
 ## 用法
 
 ```c
